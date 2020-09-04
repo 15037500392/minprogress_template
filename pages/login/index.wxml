@@ -1,0 +1,16 @@
+<view>
+  <text>账号：</text>
+  <input type="text" password="false" placeholder="请输入账号"  maxlength="20" focus="false" bindinput="bindValue" data-type="account"></input>  
+</view>
+<view>
+  <text>密码：</text>
+  <input type="text" password="true" placeholder="请输入密码"  maxlength="20" focus="false" bindinput="bindValue" data-type="password"></input>  
+</view>
+<view>
+  <button bindtap="submit">提交</button>
+    
+</view>
+<view>
+  <button bindtap="uploasImage">上传图片</button>
+    
+</view>

@@ -1,6 +1,9 @@
 //app.js
+import { Toast } from './utils/util'
 App({
   onLaunch: function () {
+    //将轻弹框挂载到全局
+    wx.$Toast = Toast;
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
